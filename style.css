@@ -1,0 +1,144 @@
+body{
+    background-color: rgba(179, 27, 27,0.3);
+    font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px;
+    height: 70%;
+}
+
+.player{
+    background-color: rgb(255, 238, 238);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.519);
+}
+
+
+ .player2{
+    background-color: rgb(255, 238, 238);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.519);
+} 
+
+.active{
+    background-color: rgba(146, 146, 146, 0.7);
+    color: white;
+    transition: all ease-in-out 0.6s;
+}
+
+/* .player2 .box{
+    background-color: rgba(255, 0, 0, 0.217);
+} */
+.player_title{
+    font-size: 44px;
+    font-weight: bold;
+    color: rgb(221, 28, 2);
+}
+
+.box{
+    background-color: rgb(255, 0, 0);
+   height: 120px;
+   width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* color: white; */
+}
+
+.counter{
+    font-size: 44px;
+    margin: 0px;
+}
+
+.counter_title{
+    font-size: 22px;
+    margin: 0px;
+}
+
+.score_title{
+    font-size: 74px;
+    margin: 0px;
+}
+
+.center{
+    position: absolute;
+    left: 43%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* right: -50%; */
+    gap: 20px
+    ;
+    height: 80%;
+}
+
+.new_game{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 6px;
+    justify-content: center;
+    cursor: pointer;
+}
+.dice_images{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.role_dice{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 6px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.hold_dice{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 6px;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.player-winer{
+    background-color: #04A96D;
+    transition: all ease 0.4s;
+}
